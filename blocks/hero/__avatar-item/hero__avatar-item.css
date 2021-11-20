@@ -1,0 +1,19 @@
+.hero__avatar-item {
+  max-width: 384px;
+  max-height: 384px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero__avatar-item {
+    max-width: 284px;
+    max-height: 284px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero__avatar-item {
+    max-width: 107px;
+    max-height: 107px;
+  }
+}

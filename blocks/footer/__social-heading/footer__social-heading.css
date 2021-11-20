@@ -1,0 +1,29 @@
+.footer__social-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding-left: 96px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__social-heading  {
+        font-size: 20px;
+        line-height: 24px;
+        width: 634px;
+        margin:0 auto;
+        margin-top: 125px;
+        padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__social-heading {
+        width: 267px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+  }

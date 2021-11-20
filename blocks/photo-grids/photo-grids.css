@@ -1,0 +1,7 @@
+.photo__grids {
+  display: grid;
+  background-color: #141f35;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

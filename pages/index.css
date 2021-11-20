@@ -1,0 +1,80 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+
+@import url(../blocks/page/page.css);
+
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links-item/header__links-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link-image/header__link-image.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/content/content.css); /*Переименовала, так у тебя был класс назван main, такого нет в html*/
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__paragraph/hero__paragraph.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__avatar/hero__avatar.css);
+@import url(../blocks/hero/__avatar-item/hero__avatar-item.css);
+
+
+
+@import url(../blocks/feature/feature.css);
+@import url(../blocks/feature/__title/feature__title.css);
+@import url(../blocks/feature/__intro/feature__intro.css);
+@import url(../blocks/feature/__intro-item/feature__intro-item.css);
+@import url(../blocks/feature/__logo/feature__logo.css);
+@import url(../blocks/feature/__paragraph/feature__paragraph.css);
+@import url(../blocks/feature/__subtitle/feature__subtitle.css);
+
+
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__content/portfolio__content.css);
+@import url(../blocks/portfolio/__subtitle/portfolio__subtitle.css);
+@import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/portfolio/card/portfolio__card.css);
+@import url(../blocks/portfolio/__text/portfolio__text.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+@import url(../blocks/portfolio/__card-item/portfolio__card-item.css);
+
+@import url(../blocks/photo-grids/photo-grids.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__photo/photo-grid__photo.css);
+@import url(../blocks/photo-grid/__text/photo-grid__text.css);
+@import url(../blocks/photo-grid/__label/photo-grid__label.css);
+@import url(../blocks/photo-grid/__scrolling/photo-grid__scrolling.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__form-heading/footer__form-heading.css);
+@import url(../blocks/footer/__form-line/footer__form-line.css);
+@import url(../blocks/footer/__form-line/_phone/footer__form-line_phone.css);
+@import url(../blocks/footer/__form-button/footer__form-button.css);
+
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contacts-phone/footer__contacts-phone.css);
+@import url(../blocks/footer/__contacts-email/footer__contacts-email.css);
+@import url(../blocks/footer/__contacts-heading/footer__contacts-heading.css);
+@import url(../blocks/footer/__contacts-text/footer__contacts-text.css);
+@import url(../blocks/footer/__social-block/footer__social-block.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-heading/footer__social-heading.css);
+@import url(../blocks/footer/__social-text/footer__social-text.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-item/footer__links-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link-image/footer__link-image.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__privacy/footer__privacy.css);
+@import url(../blocks/footer/__privacy-link/footer__privacy-link.css);

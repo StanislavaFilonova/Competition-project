@@ -1,0 +1,18 @@
+.portfolio__card-item {
+  max-width: 304px;
+  max-height: 304px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: linear-gradient(
+    179.83deg,
+    rgba(206, 206, 206, 0) 35.34%,
+    #213e60 99.85%
+  );
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__card-item {
+    max-width: 267px;
+    max-height: 267px;
+  }
+}

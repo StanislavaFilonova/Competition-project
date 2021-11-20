@@ -1,0 +1,5 @@
+.content {
+  margin: 0;
+  padding: 0;
+}
+/*пришлось переименовать блок, так как в html файле он content, не main.*/

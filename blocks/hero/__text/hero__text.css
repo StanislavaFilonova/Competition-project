@@ -1,0 +1,13 @@
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 444px;
+  min-height: 310px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__text {
+    max-width: 267px;
+    min-height: 257px;
+  }
+}

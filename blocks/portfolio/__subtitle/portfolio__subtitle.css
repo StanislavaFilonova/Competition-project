@@ -1,0 +1,27 @@
+.portfolio__subtitle {
+  width: 944px;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  margin: 64px auto 54px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .portfolio__subtitle {
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 634px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__subtitle {
+    font-size: 19px;
+    line-height: 23px;
+    max-width: 267px;
+    margin-bottom: 35px;
+    margin-top: 61px;
+  }
+}

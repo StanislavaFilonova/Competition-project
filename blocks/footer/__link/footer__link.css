@@ -1,0 +1,9 @@
+.footer__link {
+  object-fit: cover;
+}
+  
+.footer__link:hover {
+  opacity: 0.4;
+  transition: 0.9s;
+}
+  

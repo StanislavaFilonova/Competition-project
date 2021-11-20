@@ -1,0 +1,10 @@
+.footer__social-link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__social-link  {
+        margin-top: 12px;
+    }
+  }
+  

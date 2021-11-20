@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Проект-соревнование на Яндекс-Практикуме" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Иван" />
+    <meta name="author" content="Станислава" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Проект-соревнование</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a href="#" target="_blank" 
+          ><img src="./image/logo.svg" alt="Логотип" class="logo"
+        /></a>
+        <ul class="header__links">
+          <li class="header__links-item">
+            <a class="header__link" href="#" target="_blank"
+              ><img
+                src="./image/github.svg"
+                alt="Гитхаб"
+                class="header__link-image"
+            /></a>
+          </li>
+          <li class="header__links-item">
+            <a class="header__link" href="#" target="_blank"
+              ><img
+                src="./image/twitter.svg"
+                alt="Твиттер"
+                class="header__link-image"
+            /></a>
+          </li>
+          <li class="header__links-item">
+            <a class="header__link" href="#" target="_blank"
+              ><img
+                src="./image/instagram.svg"
+                alt="Инстаграм"
+                class="header__link-image"
+            /></a>
+          </li>
+          <li class="header__links-item">
+            <a class="header__link" href="#" target="_blank"
+              ><img
+                src="./image/facebook.svg"
+                alt="Фейсбук"
+                class="header__link-image"
+            /></a>
+          </li>
+        </ul>
+      </header>
+      <main class="content">
+        <section class="hero">
+          <div class="hero__text">
+            <h2 class="hero__subtitle">Фрилансер</h2>
+            <h1 class="hero__title">Петр Федоров</h1>
+            <p class="hero__paragraph">
+              Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+              заказать дизайн и верстку небольшого сайта или интернет-магазина
+            </p>
+            <a href="#" target="_blank" class="hero__button">Бесплатная консультация</a>
+          </div>
+          <div class="hero__avatar">
+            <img
+              src="./image/hero-avatar.png"
+              alt="Аватарка"
+              class="hero__avatar-item"
+            />
+          </div>
+        </section>
+
+        <section class="feature">
+          <h2 class="feature__title">Со мной удобно работать</h2>
+          <div class="feature__intro">
+            <div class="feature__intro-item">
+              <img
+                src="./image/offer-img.svg"
+                alt="Договор"
+                class="feature__logo"
+              />
+              <h2 class="feature__subtitle">По договору</h2>
+              <p class="feature__paragraph">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="feature__intro-item">
+              <img
+                src="./image/deadline-img.svg"
+                alt="В срок"
+                class="feature__logo"
+              />
+              <h2 class="feature__subtitle">Точно в срок</h2>
+              <p class="feature__paragraph">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+
+            <div class="feature__intro-item">
+              <img
+                src="./image/agreement-img.svg"
+                alt="Ценник"
+                class="feature__logo"
+              />
+              <h2 class="feature__subtitle">Ценник под вас</h2>
+              <p class="feature__paragraph">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+
+            <div class="feature__intro-item">
+              <img
+                src="./image/steps-img.svg"
+                alt="Итоги"
+                class="feature__logo"
+              />
+              <h2 class="feature__subtitle">Премежуточные итоги</h2>
+              <p class="feature__paragraph">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+
+            <div class="feature__intro-item">
+              <img
+                src="./image/storage-img.svg"
+                alt="Хостинг"
+                class="feature__logo"
+              />
+              <h2 class="feature__subtitle">Хостинг и домен</h2>
+              <p class="feature__paragraph">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+
+            <div class="feature__intro-item">
+              <img
+                src="./image/conversation-img.svg"
+                alt="Не брошу"
+                class="feature__logo"
+              />
+              <h2 class="feature__subtitle">Не брошу после сдачи</h2>
+              <p class="feature__paragraph">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="portfolio">
+          <h2 class="portfolio__subtitle">Выполненные проекты</h2>
+          <ul class="portfolio__cards">
+            <li class="portfolio__card">
+              <img
+                src="./image/Bg.png"
+                alt="Первый проект"
+                class="portfolio__card-item"
+              />
+              <p class="portfolio__text">The curious corner of chamarel</p>
+              <a href="#" target="_blank" class="portfolio__button">Посмотреть</a>
+            </li>
+            <li class="portfolio__card">
+              <img
+                src="./image/Bg2.png"
+                alt="Второй проект"
+                class="portfolio__card-item"
+              />
+              <p class="portfolio__text">Gymkhana club golf course</p>
+              <a href="#" target="_blank" class="portfolio__button">Посмотреть</a>
+            </li>
+            <li class="portfolio__card">
+              <img
+                src="./image/Bg3.png"
+                alt="Третий проект"
+                class="portfolio__card-item"
+              />
+              <p class="portfolio__text">
+                Tamarind falls hiking trip - full day
+              </p>
+              <a href="#" target="_blank" class="portfolio__button">Посмотреть</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="photo__grids">
+          <ul class="photo-grid photo-grid__scrolling">
+            <li class="photo-grid__item">
+              <img
+              src="./image/wallpapers.jpg"
+            class="photo-grid__photo"
+            alt="Обои"
+              /> 
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/office.jpg"
+            class="photo-grid__photo"
+            alt="Офис"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/team.jpg"
+            class="photo-grid__photo"
+            alt="Команда"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+              src="./image/canteen.jpg"
+              class="photo-grid__photo"
+              alt="Столовая"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/figma.jpg"
+            class="photo-grid__photo"
+            alt="Вывеска Фигма"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <a href="https://www.youtube.com/watch?v=qNhgl1tN5vU">
+                <img
+                src="./image/typing .jpg"
+                class="photo-grid__photo"
+                alt="Девушка печатает"
+                />
+                <p class="photo-grid__text">0:28</p>
+                <img class="photo-grid__label" src="./image/play_circle_filled.svg" alt="Значок проигрывания"/>
+              </a>
+            </li> 
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/library.jpg"
+            class="photo-grid__photo"
+            alt="Книги на полках"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/design.jpg"
+            class="photo-grid__photo"
+            alt="Интересный дизайн"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/programmer.jpg"
+            class="photo-grid__photo"
+            alt="Девушка программист"
+              />
+            </li>
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/desktop.jpg"
+            class="photo-grid__photo"
+            alt="Рабочий стол"
+              />
+            </li>
+            
+            <li class="photo-grid__item">
+              <a href="https://www.youtube.com/watch?v=f76S330wipg">
+                <img
+                src="./image/bridge.jpg"
+                class="photo-grid__photo"
+                alt="Знаменитый мост"
+                />
+                <p class="photo-grid__text">0:28</p>
+                <img class="photo-grid__label" src="./image/play_circle_filled.svg" alt="Значок проигрывания"/>
+              </a>
+            </li> 
+
+            <li class="photo-grid__item">
+              <img
+            src="./image/conversation.jpg"
+            class="photo-grid__photo"
+            alt="Дискуссия"
+              />
+            </li>
+          </ul> 
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>
+          <h2 class="footer__title">Свяжитесь со мной</h2>
+          <form class="footer__form">
+            <h3 class="footer__form-heading">Можете оставить заявку, я позвоню вам сегодня</h3>
+            <input class="footer__form-line" type="text" name="name" value="" placeholder="Ваше имя">
+            <input class="footer__form-line footer__form-line-phone" type="number" name="phonenumber" value="" placeholder="Ваш телефон">
+            <input class="footer__form-button" type="submit" value="Бесплатная консультация">
+         </form>
+        </div>
+      <div>  
+        <div class="footer__contacts">
+          <ul class="footer__contacts-phone">
+            <li><h2 class="footer__contacts-heading">Телефон</h2></li>
+            <li><p class="footer__contacts-text">+7 999 123 45 67</p></li>
+          </ul>
+
+          <ul class="footer__contacts-email">
+            <li><h2 class="footer__contacts-heading">Почта</h2></li>
+            <li><p class="footer__contacts-text">ivanov@mail.ru</p></li>
+          </ul>
+        </div>
+
+          <h2 class="footer__social-heading">Соцсети</h2>
+            <ul class="footer__social">
+              <li><a class="footer__social-link" href="#" target="_blank"><p class="footer__social-text">t.me/ivanov</p></a></li>
+              <li><a class="footer__social-link" href="#" target="_blank"><p class="footer__social-text">vk.me/ivanov</p></a></li>
+              <li><a class="footer__social-link" href="#" target="_blank"><p class="footer__social-text">fb.me/ivanov</p></a></li>
+            </ul>
+
+        <ul class="footer__links">
+          <li class="footer__links-item">
+            <a class="footer__link" href="#" target="_blank"
+              ><img
+                src="./image/github.svg"
+                alt="Гитхаб"
+                class="footer__link-image"
+            /></a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__link" href="#" target="_blank"
+              ><img
+                src="./image/twitter.svg"
+                alt="Твиттер"
+                class="footer__link-image"
+            /></a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__link" href="#" target="_blank"
+              ><img
+                src="./image/instagram.svg"
+                alt="Инстаграм"
+                class="footer__link-image"
+            /></a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__link" href="#" target="_blank"
+              ><img
+                src="./image/facebook.svg"
+                alt="Фейсбук"
+                class="footer__link-image"
+            /></a>
+          </li>
+        </ul>
+        <a href="#" target="_blank" class="footer__privacy-link"><p class="footer__privacy">Политика конфидененциальности</p></a>
+      </div>
+      </footer>
+  </body>
+</html>

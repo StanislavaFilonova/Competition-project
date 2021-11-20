@@ -1,0 +1,7 @@
+.partfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b2944;
+  width: 100%;
+  min-height: 100%;
+}

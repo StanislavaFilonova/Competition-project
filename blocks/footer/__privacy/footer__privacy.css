@@ -1,0 +1,29 @@
+.footer__privacy {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #949494;
+  padding-left: 96px;
+  margin: 0;
+  margin-top: 206px;
+}
+
+.footer__privacy:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__privacy {
+    width: 634px;
+    margin-top: 27px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__privacy {
+    width: 267px;
+  }
+}

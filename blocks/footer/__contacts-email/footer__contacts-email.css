@@ -1,0 +1,24 @@
+.footer__contacts-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__contacts-email {
+    width: 634px;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts-email {
+    width: 267px;
+  }
+}

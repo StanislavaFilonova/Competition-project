@@ -1,0 +1,29 @@
+.footer__contacts {
+    margin: 0 auto;
+    margin-top: 130px;
+    padding-left: 96px;
+    list-style: none;
+    width: 384px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__contacts {
+        margin-top: 70px;
+        padding: 0;
+        width: 634px;
+        height: 65px;
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__contacts {
+      margin: 0 auto;
+      margin-top: 50px;
+      width: 267px;
+    }
+  }

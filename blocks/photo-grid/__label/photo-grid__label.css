@@ -1,0 +1,10 @@
+.photo-grid__label {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    z-index: 1;
+    height: 13px;
+    width: 13px;
+    margin: 0;
+    padding: 0;
+}

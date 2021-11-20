@@ -1,0 +1,33 @@
+.portfolio__button {
+  display: flex;
+  position: absolute;
+  text-decoration: none;
+  color: #ffffff;
+  width: 120px;
+  height: 36px;
+  background-color: #ec1f46;
+  font-size: 12px;
+  line-height: 16px;
+  box-shadow: 0px 2px 0px #ce1c3e;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  bottom: 28px;
+  left: 30px;
+}
+
+.portfolio__button:hover {
+  opacity: 0.7;
+  transition: 0.9s;
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__button {
+    font-size: 12px;
+    max-width: 112px;
+    min-height: 32px;
+    line-height: 16px;
+    left: 24px;
+    bottom: 25px;
+  }
+}

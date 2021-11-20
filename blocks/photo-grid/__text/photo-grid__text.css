@@ -1,0 +1,14 @@
+.photo-grid__text {
+  position: absolute;
+  top: 8px;
+  right: 28px;
+  z-index: 1;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  max-width: 51px;
+  min-height: 15px;
+  margin: 0;
+  padding: 0;
+}

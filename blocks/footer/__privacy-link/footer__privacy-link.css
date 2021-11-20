@@ -1,0 +1,16 @@
+.footer__privacy-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__privacy-link {
+    width: 634px;
+    margin-top: 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__privacy-link{
+    width: 267px;
+  }
+}

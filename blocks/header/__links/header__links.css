@@ -1,0 +1,15 @@
+.header__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /*Добавила эту строчку, так как лучше это свойство, чем через ширину*/
+  max-height: 20px;
+  margin: 45px 0 0 auto;
+  padding: 0; /*Добавила эту строчку, так как у тебя был паддинг слева от первой иконки*/
+}
+
+@media screen and (max-width: 767px) {
+  .header__links {
+    margin-top: 41px;
+    max-height: 16px;
+  }
+}

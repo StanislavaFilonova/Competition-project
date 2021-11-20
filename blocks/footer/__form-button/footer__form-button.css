@@ -1,0 +1,37 @@
+.footer__form-button {
+    width: 380px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+    background-color: #FFBB01;
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 10px;
+    color: #1B2944;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #FFBB01;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__form-button {
+        width: 220px;
+        height: 54px;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 27px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+.footer__form-button:hover { 
+    background: rgb(240, 226, 167);
+} /* при наведении курсора мышки */
+
+.footer__form-button:active { 
+    background: rgb(243, 166, 24); 
+} /* при нажатии */

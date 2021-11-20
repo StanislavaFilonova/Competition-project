@@ -1,0 +1,13 @@
+.footer__link-image {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__link-image {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  

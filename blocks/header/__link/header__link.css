@@ -1,0 +1,8 @@
+.header__link {
+  object-fit: cover;
+}
+
+.header__link:hover {
+  opacity: 0.4;
+  transition: 0.9s;
+}

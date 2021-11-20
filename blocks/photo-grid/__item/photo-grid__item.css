@@ -1,0 +1,6 @@
+.photo-grid__item {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,25 @@
+.footer__form-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    width: 380px;
+    margin: 47px auto 30px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__form-heading {
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__form-heading {
+        font-size: 15px;
+        line-height: 21px;
+        width: 220px;
+        margin: 38px auto 28px;
+    }
+}

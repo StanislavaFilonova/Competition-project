@@ -1,0 +1,26 @@
+.hero__title {
+  font-size: 50px;
+  line-height: 59px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0;
+  margin: 0 auto 20px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero__title {
+    font-size: 38px;
+    line-height: 47px;
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero__title {
+    max-width: 164px;
+    min-height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto 15px;
+  }
+}

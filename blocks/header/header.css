@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    max-width: 634px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: 267px;
+  }
+}

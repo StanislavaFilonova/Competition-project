@@ -1,0 +1,26 @@
+.footer__social-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.footer__social-text:hover {
+  opacity: 0.4;
+  transition: 0.9s;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__social-text {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social-text {
+    margin-top: 12px;
+  }
+}

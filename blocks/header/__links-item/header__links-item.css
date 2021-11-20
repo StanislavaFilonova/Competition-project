@@ -1,0 +1,16 @@
+.header__links-item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 21px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links-item {
+    margin-right: 13px;
+  }
+}
+
+.header__links-item:last-of-type {
+  margin-right: 0;
+}

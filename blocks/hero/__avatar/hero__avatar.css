@@ -1,0 +1,11 @@
+.hero__avatar {
+  display: flex;
+  margin: 0 0 auto auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__avatar {
+    margin: 0 auto 17px;
+  }
+}

@@ -1,0 +1,24 @@
+.footer__form {
+    width: 458px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: -5px 5px 0px #FFC41D;
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__form {
+        width: 634px;
+        height: 456px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__form {
+        width: 264px;
+        height: 393px;
+    }
+}
+

@@ -1,0 +1,5 @@
+.partfolio__content {
+  display: flex;
+  flex-direction: column;
+  margin: 64px auto;
+}

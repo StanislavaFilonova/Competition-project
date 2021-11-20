@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  max-width: 944px;
+  max-height: 384px;
+  margin: 113px auto 0; /*отсутп от hero-content меньше, чем 150px*/
+  padding-bottom: 71px;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero {
+    max-width: 634px;
+    margin: 49px auto 0 auto;
+    padding-bottom: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    flex-direction: column-reverse;
+    min-height: 387px;
+    max-width: 267px;
+    margin: 46px auto 0 auto;
+    padding-bottom: 42px;
+  }
+}

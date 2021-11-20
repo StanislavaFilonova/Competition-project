@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+    .photo-grid__scrolling {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}

@@ -1,0 +1,18 @@
+.feature__paragraph {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .feature__paragraph {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 auto;
+  }
+}
+
+/*Вообще не поняла, почему ты добавил margin-bottom 6px, а также свойство для последнего параграфа*/
